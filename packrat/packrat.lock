@@ -1,0 +1,87 @@
+PackratFormat: 1.4
+PackratVersion: 0.4.2.1
+RVersion: 3.1.2
+Repos: CRAN=http://cran.rstudio.com/
+
+Package: R6
+Source: CRAN
+Version: 2.0.1
+Hash: 9a3ac4e5fd8059af0fc5156bcb019bbc
+
+Package: RJSONIO
+Source: CRAN
+Version: 1.3-0
+Hash: 8b1341dfd547c90ed4b3365d5aa46a7b
+
+Package: Rcpp
+Source: CRAN
+Version: 0.11.3
+Hash: d9cc0a13885961b2d004cf73b0fb68dd
+
+Package: bitops
+Source: CRAN
+Version: 1.0-6
+Hash: cb26464a8321628636b547518994c931
+
+Package: caTools
+Source: CRAN
+Version: 1.17.1
+Hash: bb5fdc266f716b8a289a4f92007d53e3
+Requires: bitops
+
+Package: digest
+Source: CRAN
+Version: 0.6.8
+Hash: 89dc4c8734dad5322bb3c5c2af09056f
+
+Package: htmltools
+Source: github
+Version: 0.2.6
+Hash: d6fe9ae1aeed70014f8b49fbb2f480a433eac8be
+Requires: digest
+GithubRepo: htmltools
+GithubUsername: rstudio
+GithubRef: master
+GithubSha1: d6fe9ae1aeed70014f8b49fbb2f480a433eac8be
+
+Package: httpuv
+Source: CRAN
+Version: 1.3.2
+Hash: 163f7f889c45832ff6e0841c90c51845
+Requires: Rcpp
+
+Package: mime
+Source: CRAN
+Version: 0.2
+Hash: 9179db921fcb2e5be44e217042ed06bc
+
+Package: packrat
+Source: CRAN
+Version: 0.4.2-1
+Hash: 085f944cec9b56e8a280222b5174c76e
+
+Package: phreeqc
+Source: CRAN
+Version: 1.0-9102
+Hash: 8a649d6dc11ff78a08a365f808f098bb
+
+Package: shiny
+Source: CRAN
+Version: 0.11
+Hash: 6ab20161a34c3faff2543f84f48894a2
+Requires: R6, RJSONIO, digest, htmltools, httpuv, mime, xtable
+
+Package: shinyAce
+Source: github
+Version: 0.1.0
+Hash: cab0fcd8e8a9dd096dfc646be11d0f788ed976f3
+Requires: shiny
+GithubRepo: shinyAce
+GithubUsername: trestletech
+GithubRef: master
+GithubSha1: cab0fcd8e8a9dd096dfc646be11d0f788ed976f3
+
+Package: xtable
+Source: CRAN
+Version: 1.7-4
+Hash: 7b30b5ca6c7ae80c4f916502e3ad0237
